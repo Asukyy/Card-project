@@ -1,0 +1,159 @@
+body {
+
+    background-color: hsl(217, 54%, 11%);
+}
+
+.item {
+    background: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 610px;
+    margin: auto;
+    margin-top: 175px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 25px;
+    z-index:1;
+}
+
+.eye {
+    margin-left: 25px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity:0%;
+    
+}
+
+.eye {
+    display: block;
+    background-color: hsl(178, 100%, 50%);
+    position: aboslute;
+}
+
+    .eye img {
+        margin-left: 130px;
+        margin-top: 130px;
+    }
+
+    .eye:hover {
+
+        opacity: 50%;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+.text1 {
+    color: white;
+    font-size: 22px;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+    .text1:hover {
+        color: hsl(178, 100%, 50%);
+    }
+
+.text2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    margin-left:25px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.teth {
+    display: flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+
+    .teth img {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        height: 20px;
+        margin-left:30px;
+    }
+
+
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.left img {
+    display: flex;
+    flex-direction: row;
+    margin-right: -10px;
+    height: 20px;
+}
+
+    .left p {
+        margin-left: 20px;
+        color: hsl(215, 51%, 70%);
+        margin-right:30px;
+        
+    }
+
+hr {
+    width: 290px;
+    opacity:30%;
+}
+
+.tete {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top:-20px;
+}
+
+    .tete img {
+        width: 30px;
+       margin-left:30px;
+        border: 1px solid;
+        border-color: white;
+        border-radius: 50%;
+        
+    }
+    .tete .white {
+        text-align: center;
+        margin-left:10px;
+        color: white;
+        font-size: 18px;
+
+    }
+
+    .tete .other {
+        color: hsl(215, 51%, 70%);
+        font-size: 18px;
+        margin-left: 10px;
+    }
+.attribution{
+    color:white;
+
+}
